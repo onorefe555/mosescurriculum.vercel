@@ -1,0 +1,116 @@
+.mosescv_name-details{  
+    flex: 8;
+}
+.mosescv-experience{
+    background-color: var(--color-bg);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.mosescv_name-details p{
+    font-size: var(--text-size);
+    letter-spacing: 1px;
+    font-family: var(--font-family);
+    line-height: 2rem; 
+    color: var(--color-text);
+}
+ h2{
+    font-size: 40px;
+    margin-bottom: 1rem;
+    letter-spacing: 0.3rem;
+    font-family: var(--font-family);
+    color: var(--color-text);
+}
+h3{
+    font-size: 24px;
+    color: var(--color-text);
+}
+.mosescv-workeperience h2{
+    color: var(--color-bg);
+    margin-top: 1.5rem;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+.mosescv-workeperience .header{
+    border: solid 1px var(--color-bg);
+}
+.mosescv-workeperience h3{
+    font-size: 25px;
+    margin-top: 1.5rem;
+    color: var(--color-bg);
+}
+.mosescv-workeperience .project{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+ul li{
+    font-size: var(--text-size);
+    line-height: 2.3rem;
+    font-family: var(--font-family);
+}
+.mosescv-workeperience .past__project{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 0.5rem;
+}
+.mosescv-workeperience p{
+    font-size: 16px;
+    color: rgb(31, 30, 30);
+}
+.mosescv-workeperience ul a{
+    text-decoration: none;
+    color: black;
+    font-size: var(--text-size);
+}
+.certificate{
+    font-size: var(--text-size);
+    color: black;
+    margin-top: 2rem;
+}
+@media screen and (max-width:650px){
+    .mosescv-experience{
+        padding: 1.2rem;
+        border-radius: 1rem;
+    }
+.mosescv-experience h2{
+    margin-top: 1rem;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: bolder;
+}
+.mosescv-experience h3{
+    font-size: 16px;
+}
+.mosescv_name-details p{
+    font-size: 12px;
+    line-height: 1.3rem;
+}
+.mosescv-workeperience h2{
+    font-size: 14px;
+}
+.mosescv-workeperience h3{
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.mosescv-workeperience h4{
+    font-size: 14px;
+}
+.mosescv-workeperience .project{
+    font-size: 14px;
+}
+.mosescv-workeperience li{
+    font-size: 15px;
+    line-height: 1.8rem;
+}
+.mosescv-experience h2{
+    visibility: hidden;
+    margin-top: 0.3rem;
+    font-size: 1px;
+}
+.past__project li{
+    margin-top: 1rem;
+}
+}
