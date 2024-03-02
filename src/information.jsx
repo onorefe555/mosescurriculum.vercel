@@ -10,7 +10,7 @@ const Information =()=>{
            <h4>Phone no:</h4> <p>+234 8167390958</p>
            <h4>Linkdin:</h4> <p><a href="https:/www.linkedin.com/in/moses-onorefe-a72407259">linkedin.com/in/moses-onorefe</a></p>
            <h4>Github:</h4> <p>Onorefe555</p>
-           <h2>TECHNICAL SKILLS</h2>
+           <h2>TECHNICAL SKILLs</h2>
            <hr  className="interest"/>
            <p>HTML5</p>
            <hr />
