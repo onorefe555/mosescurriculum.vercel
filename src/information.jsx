@@ -1,6 +1,6 @@
 import react from "react"
 import "./information.css"
-import moses from "./img/moses.jpg"
+import moses from "./img/moses-removebg-preview.png"
 
 const Information =()=>{
     return(
